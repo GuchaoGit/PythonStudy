@@ -1,11 +1,9 @@
 """
 数据结构
 """
+from src.utils.utils import print_array, get_now_time
 
-
-def print_array(tag, array):
-    print(tag, ":", array)
-
+print(get_now_time())
 
 list1 = [1, 2, 3]
 print_array('原始数组', list1)

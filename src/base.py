@@ -78,6 +78,8 @@ print(type(tuple2))
 print('-------------字典------------')
 dict0 = {}  # 空字典
 dict1 = {'a': 456, 'b': 789}
+dict0['name'] = 'guc'
+print(dict0)
 print(dict1)
 
 print('-------------集合------------')
